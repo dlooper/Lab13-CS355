@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>lab13</title>
+</head>
+
+<body>
+
+<div id="container" style="width:650px">
+
+<div id="header" style="background-color:#FFA500;">
+<img src="http://www.cs.sonoma.edu/~haderman/cs355/assignments/cs355lab13.png" alt="CS355 Lab 13"></div>
+
+<div id="menu" style="background-color:#FFD700;height:400px;width:100px;float:left;">
+<b>Menu</b><br>
+<a href="https://github.com/dlooper/Lab-12/"> CS355 Lab 13</a><br>
+<a href="http://www.cs.sonoma.edu/~haderman/cs355/"> CS355</a><br>
+<a href="http://www.cs.sonoma.edu/"> SSU CS Dept</a></div>
+
+<div id="content" style="background-color:#FFFFFF;height:400px;width:550px;float:left;">
+
+<table style="width:550px; border:2px solid white; border-collapse:collapse; padding:5px; text-align:left;">
+<tr style="background-color:#585858;font-family:times;color:white;font-size:16px;">
+  <th>Number</th>
+  <th>Name</th>
+  <th>Professor</th>
+</tr>
+<tr>
+  <td>CS355</td>
+  <td>Database Design</td>
+  <td>Haderman</td>
+</tr>
+<tr style="background-color:#F0F0F0">
+  <td>CS370</td>
+  <td>Software Design & Development</td>
+  <td>Lyle</td>
+</tr>
+<tr>
+  <td>CS80</td>
+  <td>Senior Design Project</td>
+  <td>Ravikumar</td>
+</tr>
+</table>
+
+<p>Top 3 things I've learned:</p>
+<ol>
+  <li>Python</li>
+  <li>C++</li>
+  <li>SQL</li>
+</ol>
+<p>Three things I want to learn:</p>
+<ul>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>Functional Dependencies</li>
+</ul>
+
+<script>
+function myFunction()
+{
+document.getElementById("demo").innerHTML="Doran says thank you.";
+}
+</script>
+
+<button type="button" onclick="myFunction()">Click Me</button>
+
+<p id="demo">
+</p>
+
+</div>
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+Copyright © W3Schools.com</div>
+
+</div>
+ 
+</body>
+</html>
